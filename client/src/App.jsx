@@ -135,13 +135,14 @@ function App() {
                 <button className="px-4 py-2 bg-blue-500 text-white rounded disabled:opacity-50 ml-2" onClick={sendMessage} disabled={loading}>SEND</button>
             </div>
             
+            {/* World */}
             <h1 className="p-4 font-bold text-2xl">World</h1>
 
             <div className="p-4 text-left">
                 {world.locations && (
                     <div>
                         <p>Locations:</p>
-                        <ul>
+                        <ul className="list-disc p-4 ">
                             {world.locations.map((loc, index) => (
                                 <li key={index}>{loc}</li>
                             ))}
@@ -152,7 +153,7 @@ function App() {
                 {world.history && (
                     <div>
                         <p>History:</p>
-                        <ul>
+                        <ul className="list-disc p-4 ">
                             {world.history.map((event, index) => (
                                 <li key={index}>{event}</li>
                             ))}
