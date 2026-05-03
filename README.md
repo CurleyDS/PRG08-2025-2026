@@ -2,7 +2,7 @@
 
 ## Installeren
 - Clone de repository!
-- Open de lokale repository.
+- Open de lokale repository je code editor.
 - Open 2 terminals (gebruik command prompt). Navigeer naar `/client` en `/server` in je terminals.
 
 Installeer in allebei de terminals je `node modules`:
